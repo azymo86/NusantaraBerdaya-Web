@@ -6,5 +6,5 @@
 
 
 Route::get('/', 'pageController@index');
-Route::get('/tes', 'pageController@test');
-Route::post('/tes/save', 'pageController@test_save');
+Route::get('/tes', 'campaignController@show');
+Route::post('/tes/save', 'campaignController@save');

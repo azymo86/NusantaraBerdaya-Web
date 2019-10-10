@@ -12,10 +12,7 @@
     <p>
 
         <div class="card card-primary">
-            <div class="card-header">
-                <h3>ini judul card</h3>
-            </div>
-            <!-- /.card-header -->
+          <h4>Create Data</h4>
             <!-- form start -->
             <form role="form" action="/tes/save" method="post">
                 <!-- ini format post data dari laravel -->
@@ -34,12 +31,10 @@
                     </div>
                 </div>
                 <!-- /.card-body -->
-
                 <div class="card-footer">
                     <button type="submit" class="btn btn-block btn-primary float-right btn-lg">Submit</button>
                 </div>
                 {{-- /.footer --}}
-
             </form>
         </div>
 

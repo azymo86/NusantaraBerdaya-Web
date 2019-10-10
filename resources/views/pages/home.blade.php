@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Agency - Start Bootstrap Theme</title>
+  <title>Nusantara Berdaya</title>
 
   <!-- Bootstrap core CSS -->
   <link href="{{url('Agency/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -60,9 +60,9 @@
   <!-- Header -->
   <header class="masthead">
     <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Our Studio!</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+      <div class="intro-text" style="padding-top: 400px;">
+        {{-- <div class="intro-lead-in">Welcome To Our Studio!</div> --}}
+        {{-- <div class="intro-heading text-uppercase">It's Nice To Meet You</div> --}}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
     </div>
