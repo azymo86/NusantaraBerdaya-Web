@@ -8,3 +8,4 @@
 Route::get('/', 'pageController@index');
 Route::get('/tes', 'campaignController@show');
 Route::post('/tes/save', 'campaignController@save');
+Route::post('/tes/change', 'campaignController@change');
