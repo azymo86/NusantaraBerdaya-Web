@@ -42,16 +42,16 @@
             <a class="nav-link js-scroll-trigger" href="#services"><b>Campaign</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio"><b>Portfolio</b></a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio"><b>Kegiatan</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about"><b>About</b></a>
+            <a class="nav-link js-scroll-trigger" href="#about"><b>Simulasi</b></a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team"><b>Team</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact"><b>Contact</b></a>
+            <a class="nav-link js-scroll-trigger" href="#"><b>Hubungi</b></a>
           </li>
         </ul>
       </div>
@@ -62,15 +62,15 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in" style="margin-top: 150px;">Bahagia itu saat kita berbagi</div>
+        <div class="intro-lead-in" style="margin-top: 190px;">Bahagia itu saat kita berbagi</div>
         {{-- <div class="intro-heading text-uppercase">It's Nice To Meet You</div> --}}
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Campaign Kami</a>
       </div>
     </div>
   </header>
 
-  <!-- Services -->
-  <section class="page-section" style="background-color: #c5ffc7;">
+  <!-- Campaign -->
+  <section class="page-section" style="background-color: #a2f9a5;">
     <div class="container">
       <div class="row" id="services">
         <div class="col-lg-12 text-center">
@@ -86,7 +86,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-info">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-info">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -106,15 +106,21 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-info">Go somewhere</a>
             </div>
           </div>
         </div>
       </div>
+      <div class="text-center" style="
+        margin-top: 25px;
+        margin-bottom: -50px;
+      ">
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#">Lihat Lainnya</a>
+      </div>
     </div>
   </section>
 
-  <!-- Services -->
+  <!-- Kegiatan -->
   <section class="page-section">
     <div class="container">
       <div class="row" id="portfolio">
@@ -131,7 +137,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a data-toggle="modal" href="#portfolioModal1" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-info">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -141,7 +147,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-info">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -151,16 +157,22 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-info">Go somewhere</a>
             </div>
           </div>
         </div>
+      </div>
+      <div class="text-center" style="
+        margin-top: 25px;
+        margin-bottom: -50px;
+      ">
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#">Lihat Lainnya</a>
       </div>
     </div>
   </section>
 
   <!-- Portfolio Grid -->
-  <section class="bg-light page-section">
+  {{-- <section class="bg-light page-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -255,14 +267,14 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
-  <!-- About -->
-  <section class="page-section" id="about">
+  <!-- Simulasi -->
+  <section class="page-section" style="background-color: #a2f9a5;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
+        <div class="col-lg-12 text-center" id="about">
+          <h2 class="section-heading text-uppercase">Simulasi</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
@@ -339,9 +351,9 @@
   </section>
 
   <!-- Team -->
-  <section class="bg-light page-section" id="team">
+  <section class="bg-light page-section">
     <div class="container">
-      <div class="row">
+      <div class="row" id="team">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
           <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -350,9 +362,9 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="Agency/img/team/1.jpg" alt="">
-            <h4>Kay Garland</h4>
-            <p class="text-muted">Lead Designer</p>
+            <img class="mx-auto rounded-circle" src="Agency/img/team/1.png" alt="">
+            <h4>Aminnur Ikhsan</h4>
+            <p class="text-muted">IT Development</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -374,9 +386,9 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="Agency/img/team/2.jpg" alt="">
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
+            <img class="mx-auto rounded-circle" src="Agency/img/team/2.png" alt="">
+            <h4>Nur Ikhsan</h4>
+            <p class="text-muted">Leader Team</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -398,9 +410,9 @@
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="Agency/img/team/3.jpg" alt="">
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
+            <img class="mx-auto rounded-circle" src="Agency/img/team/3.png" alt="">
+            <h4>Salman Alfarisi</h4>
+            <p class="text-muted">Marketing Management</p>
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -458,7 +470,7 @@
   </section>
 
   <!-- Contact -->
-  <section class="page-section" id="contact">
+  {{-- <section class="page-section" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -500,16 +512,16 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer" style="background-color: #010d68;">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+        <div class="col-md-4" style="color: white;">
+          <span class="copyright">Copyright © <a href="/">Nusantara Berdaya</a> 2019</span>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="#">
