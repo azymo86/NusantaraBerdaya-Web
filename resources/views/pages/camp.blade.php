@@ -41,10 +41,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#campaigns"><b>Campaign</b></a>
+            <a class="nav-link js-scroll-trigger" href="#services"><b>Campaign</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#activities"><b>Kegiatan</b></a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio"><b>Kegiatan</b></a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about"><b>Simulasi</b></a>
@@ -66,7 +66,7 @@
       <div class="intro-text">
         <div class="intro-lead-in" style="margin-top: 190px;">Bahagia itu saat kita berbagi</div>
         {{-- <div class="intro-heading text-uppercase">It's Nice To Meet You</div> --}}
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#campaigns">Campaign Kami</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Campaign Kami</a>
       </div>
     </div>
   </header>
@@ -74,7 +74,7 @@
   <!-- Campaign -->
   <section class="page-section" style="background-color: #a2f9a5;">
     <div class="container">
-      <div class="row" id="campaigns">
+      <div class="row" id="services">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase" >Campaign Unggulan</h2>
           <h3 class="section-subheading text-muted" style="margin-bottom: 20px;">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -134,7 +134,7 @@
                     alt="Card image cap" style="border-radius: 15px 15px 0px 0px;">
                   </a>
                   <div class="card-body">
-                    <h6 class="card-title">Card title 1</h6>
+                    <h5 class="card-title">Card title 1</h5>
                     {{-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> --}}
                     <div class="progress-group">
                         <span class="progress-text">Rp. 80.000.000,-</span>
@@ -152,109 +152,195 @@
 
         </div>
       <div class="text-center" style="
-        margin-top: 20px;
+        margin-top: 25px;
         margin-bottom: -50px;
       ">
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="/campaigns">Lihat Lainnya</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#">Lihat Lainnya</a>
       </div>
     </div>
   </section>
 
   {{-- Quote --}}
-  <section class="page-section-quote" style="tex-align:center;">
+  <section class="page-section-quote shadow-Custom " style="tex-align:center;">
     <div class="container">
-      <h2 style="font-weight: 1;">“Build a dream and the dream will build you.”</h2>
+      <h2>hai-hai</h2>
     </div>
   </section>
 
   <!-- Kegiatan -->
-  <section class="page-section" style="background-color: #a2b0f9;">
+  <section class="page-section" style="background-color: #a2f9a5;">
     <div class="container">
-      <div class="row" id="activities">
+      <div class="row" id="portfolio">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase" >KEgiatan</h2>
+          <h2 class="section-heading text-uppercase" >Kegiatan</h2>
           <h3 class="section-subheading text-muted" style="margin-bottom: 20px;">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
 
-        <div class="row">
-          <div class="col-md-4 p-2">
-            <div class="shadow-Custom card-r-15 bg-light">
-              <a href="#">
-                <img class="card-img-top" src="{{url('images/01.L.jpg')}}" alt="Card image cap" style="border-radius: 15px 15px 0px 0px;">
-              </a>
-              <div class="card-body">
-                <h6 class="card-title">Bantu Pesantren Rawan Akidah</h6>
-                {{-- <p class="card-text">Bantu Pesantren Rawan Akidah</p> --}}
-                <div class="progress-group">
-                    <span class="progress-text">Rp. 80.000.000,-</span>
-                    <span class="progress-number"><b>28</b> hari</span>
-                    <div class="progress xs">
-                        <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                    </div>
-                </div>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-info">Lebih lengkap</a>
-              </div>
+      <div class="row">
+        <div class="col-md-4 p-2">
+          <div class="shadow card bg-primary text-white">
+            <img class="card-img-top" src="{{url('images/01.L.jpg')}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-
-          <div class="col-md-4 p-2">
-            <div class="shadow-Custom card-r-15 bg-light">
-              <a href="#">
-                <img class="card-img-top" src="{{url('images/2. Manggarai - L.jpg')}}" alt="Card image cap" style="border-radius: 15px 15px 0px 0px;">
-              </a>
-              <div class="card-body">
-                <h6 class="card-title">Berbuka Bersama Muslim Minoritas</h6>
-                {{-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of.</p> --}}
-                <div class="progress-group">
-                    <span class="progress-text">Rp. 37.500.000,-</span>
-                    <span class="progress-number"><b>14</b> hari</span>
-                    <div class="progress xs">
-                        <div class="progress-bar progress-bar-aqua" style="width: 45%"></div>
-                    </div>
-                </div>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-info">Lebih lengkap</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 p-2">
-              <div class="shadow-Custom card-r-15 bg-light">
-                  <a href="#">
-                    <img class="card-img-top"
-                    src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16dd047ab75%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16dd047ab75%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22101.5%22%20y%3D%2296.9%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
-                    alt="Card image cap" style="border-radius: 15px 15px 0px 0px;">
-                  </a>
-                  <div class="card-body">
-                    <h6 class="card-title">Card title 1</h6>
-                    {{-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> --}}
-                    <div class="progress-group">
-                        <span class="progress-text">Rp. 80.000.000,-</span>
-                        <span class="progress-number"><b>28</b> hari</span>
-                        <div class="progress xs">
-                            <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="card-footer">
-                    <a href="#" class="btn btn-info">Lebih lengkap</a>
-                  </div>
-              </div>
-          </div>
-
         </div>
+        <div class="col-md-4 p-2">
+            <div class="shadow card bg-light">
+                <a href="#">
+                  <img class="card-img-top"
+                  src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16dd047ab75%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16dd047ab75%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22101.5%22%20y%3D%2296.9%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                  alt="Card image cap">
+                </a>
+                <div class="card-body">
+                  {{-- <h5 class="card-title">Card title 1</h5> --}}
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="progress-group">
+                      <span class="progress-text">Rp. 80.000.000,-</span>
+                      <span class="progress-number"><b>28</b> hari</span>
+                      <div class="progress xs">
+                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-info">Lebih lengkap</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 p-2">
+            <div class="shadow card bg-light">
+                <a href="#">
+                  <img class="card-img-top"
+                  src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16dd047ab75%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16dd047ab75%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22101.5%22%20y%3D%2296.9%22%3E286x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                  alt="Card image cap">
+                </a>
+                <div class="card-body">
+                  {{-- <h5 class="card-title">Card title 1</h5> --}}
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="progress-group">
+                      <span class="progress-text">Rp. 80.000.000,-</span>
+                      <span class="progress-number"><b>28</b> hari</span>
+                      <div class="progress xs">
+                          <div class="progress-bar progress-bar-aqua" style="width: 80%"></div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-info">Lebih lengkap</a>
+                </div>
+            </div>
+        </div>
+      </div>
       <div class="text-center" style="
-        margin-top: 20px;
+        margin-top: 25px;
         margin-bottom: -50px;
       ">
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="/activities">Lihat Lainnya</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#">Lihat Lainnya</a>
       </div>
     </div>
   </section>
+
+  <!-- Portfolio Grid -->
+  {{-- <section class="bg-light page-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Kegiatan</h2>
+          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="Agency/img/portfolio/01-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Threads</h4>
+            <p class="text-muted">Illustration</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="Agency/img/portfolio/02-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Explore</h4>
+            <p class="text-muted">Graphic Design</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="Agency/img/portfolio/03-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Finish</h4>
+            <p class="text-muted">Identity</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="Agency/img/portfolio/04-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Lines</h4>
+            <p class="text-muted">Branding</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="Agency/img/portfolio/05-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Southwest</h4>
+            <p class="text-muted">Website Design</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="Agency/img/portfolio/06-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Window</h4>
+            <p class="text-muted">Photography</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> --}}
 
   <!-- Simulasi -->
   <section class="page-section" style="background-color: #a2f9a5;">

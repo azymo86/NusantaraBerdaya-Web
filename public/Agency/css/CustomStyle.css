@@ -1,0 +1,46 @@
+.progress-group .progress-text {
+  font-weight: 600;
+}
+
+.progress-group .progress-number {
+  float: right;
+}
+
+.progress.xs, .progress-xs {
+  height: 5px;
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-r-15 {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.shadow-Custom {
+    box-shadow: 0.7rem 0.9rem 0.4rem
+    rgba(0,0,0,.15) !important;
+}
+
+/* horizontal scrollable */
+.testimonial-group > .row {
+  overflow-x: auto;
+  /* white-space: nowrap; */
+}
+.testimonial-group > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
+}
+
+/* quote */
+.page-section-quote {
+  text-align: center;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}

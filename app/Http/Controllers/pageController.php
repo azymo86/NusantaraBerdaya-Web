@@ -14,6 +14,56 @@ class pageController extends Controller
     return view ('pages/home');
   }
 
+  // halaman campaign
+  public function campaigns (){
+
+    function acak($panjang)
+    {
+      $karakter= '123456789';
+      $string = '';
+
+      for ($i = 0; $i < $panjang; $i++)
+      {
+        $pos = rand(0, strlen($karakter)-1);
+        $string .= $karakter{$pos};
+      }
+      return $string;
+    }
+
+    for ($i=0; $i < 9; $i++) {
+      $angka = acak(5);
+      $nominal [] = number_format($angka,0,',','.');
+    }
+    // dd($nominal);
+
+    return view ('pages/campaigns', ['num'=>$nominal]);
+  }
+
+  // halaman activities
+  public function activities (){
+
+    function acak($panjang)
+    {
+      $karakter= '123456789';
+      $string = '';
+
+      for ($i = 0; $i < $panjang; $i++)
+      {
+        $pos = rand(0, strlen($karakter)-1);
+        $string .= $karakter{$pos};
+      }
+      return $string;
+    }
+
+    for ($i=0; $i < 9; $i++) {
+      $angka = acak(5);
+      $nominal [] = number_format($angka,0,',','.');
+    }
+    // dd($nominal);
+
+    return view ('pages/activities', ['num'=>$nominal]);
+  }
+
   public function test ()
   {
     $cek = Campaign::all();
